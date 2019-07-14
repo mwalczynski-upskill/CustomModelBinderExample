@@ -8,7 +8,7 @@
     public class ProductsController : ControllerBase
     {
         [HttpGet("{product}")]
-        public ActionResult<string> Get(Product product)
+        public IActionResult Get(Product product)
         {
             if (product == null)
             {

@@ -1,9 +1,5 @@
 ﻿namespace CustomModelBinder.Models
 {
-    using Microsoft.AspNetCore.Mvc;
-    using ModelBinders;
-
-    [ModelBinder(BinderType = typeof(ProductEntityModelBinder))]
     public class Product
     {
         public int Id { get; set; }
